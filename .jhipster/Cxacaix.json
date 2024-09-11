@@ -1,0 +1,47 @@
+{
+  "name": "Cxacaix",
+  "fields": [
+    {
+      "fieldName": "cxacaixId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "xrefCardNum",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "16"
+    },
+    {
+      "fieldName": "xrefCustId",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["max"],
+      "fieldValidateRulesMax": "9"
+    },
+    {
+      "fieldName": "xrefAcctId",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["max"],
+      "fieldValidateRulesMax": "11"
+    },
+    {
+      "fieldName": "filler",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "14"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "cxacaix",
+  "dto": "no",
+  "pagination": "infinite-scroll",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["MainMicro", "CXACAIXMICRO"],
+  "microserviceName": "CXACAIXMICRO",
+  "clientRootFolder": "CXACAIXMICRO",
+  "databaseType": "sql",
+  "changelogDate": "20240911140658"
+}
