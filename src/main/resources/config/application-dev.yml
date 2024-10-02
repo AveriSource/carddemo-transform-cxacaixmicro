@@ -47,9 +47,9 @@ spring:
       # it can be set to any label, branch or commit of the configuration source Git repository
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:sqlserver://<server>;database=<db_name>
-    username: <db_username>
-    password: <db_password>
+    url: jdbc:sqlserver://10.20.118.57;database=CXACAIX
+    username: sa
+    password: uoZyd0UI9M06762ZUocu
     hikari:
       poolName: Hikari
       auto-commit: false
